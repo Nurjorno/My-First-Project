@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.btn {
+    font-size: 60px;
+    
+}
+
+.img {
+    width: 540px;
+    height: 621px;
+}
+.animate__animated  {
+    font-size: 40px; 
+    width: 310px;
+    height: 422px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.btn2 {
+    color: green;
+    font-size: 60px;
+    margin-left: 10px;
+}
+.zagolovok {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 60px;
+    
+    
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttonchik {
+    padding: 20px 60px;
+    color: #598d66;
+    border: 1px solid #598d66;
+    border-radius: 1px;
+
+
+    cursor: pointer;
+    transition: 250ms;
+}
+.buttonchik:hover {
+    transform: scale(1.1);
+    background-color: #598d66;
+    color: white;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.ReproductFilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.B {
+border-radius: 20px;
+border: none;
+padding: 10px 20px;
+font-size: 20px;
+transition: 250ms;
+cursor: pointer;
+margin-bottom: 30px;
+}
+
+.A {
+border-radius: 20px;
+border: none;
+padding: 10px 20px;
+font-size: 20px;
+transition: 250ms;
+cursor: pointer;
+color: black;
+margin-bottom: 30px;
+background-color: #376B44;
+color: white;
+}
+
+.C {
+border-radius: 20px;
+border: none;
+padding: 10px 20px;
+font-size: 20px;
+transition: 250ms;
+cursor: pointer;
+margin-bottom: 30px;
+}
+
+.B:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #376B44;
+}
+
+
+
+.A:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #376B44;
+}
+
+.C:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #376B44;
+}
+
+.animate__animate {
+    width: 310px;
+    height: 422px;
+    padding: 0;
+
+}
+
+.reproductGallery {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    
+}  
+.RUSSO {
+    font-size: 18px;
+    color: #86928b;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.HUNT {
+    font-size: 28px;
+    margin-bottom: 8px;
+    
+}
+.MACJIO {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.RUB {
+    font-size: 24px;
+    color:  #598D66;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+
+}
+.Buttonchik {
+    border: 1px solid #598D66;
+    padding: 20px 120px;
+    color: #598D66;
+    font-size: 20px;
+    gap: 6px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: 250ms;
+}
+.Buttonchik:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #598D66;
+    border-radius: 8px;
+}
+.reproductCard {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #E1EDE6;
+    width: 350px ;
+    padding: 20px;  
+    height: 730px;
+}
+
+.animate {
+    width: 540px;
+    height: 331px;
+
+}
+
+.Replic {
+    margin-bottom: 20px;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.animate__animatedo {
+    height: 422px;
+}
+

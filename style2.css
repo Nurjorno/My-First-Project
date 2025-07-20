@@ -1,0 +1,22 @@
+.B {
+    background-color: #376B44;
+    color: white;
+}
+
+.A {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.animate__animatedo {
+    width: 300px;
+}
+
+.animate__animated  {
+    font-size: 40px; 
+    width: 310px;
+    height: 422px;
+    
+    display: flex;
+    flex-direction: column;
+}
